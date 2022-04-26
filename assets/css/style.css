@@ -1,0 +1,9 @@
+img {
+    width: 35%;
+    max-width: 300px;
+    border-radius: 300px;
+    box-shadow: 0px 0px 10px grey;
+    margin-top: -75px;
+    object-fit: cover;  
+    justify-content: center; 
+}
