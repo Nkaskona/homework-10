@@ -1,0 +1,69 @@
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 0px 5px #e6e1e1;
+    width: 1000px;
+}
+
+.content {
+    border: 10px solid #e6e1e1;
+    min-height: 500px;
+    min-width: 300px;
+    max-width: 600px;
+    justify-content: center; 
+    text-align: center;
+    line-height: 30px;
+}
+
+img {
+    width: 35%;
+    max-width: 300px;
+    border-radius: 50%;
+    border: 0px solid white;
+    margin-top: 60px;
+    object-fit: cover;  
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+div > button {
+    background-color: #67b167;
+    color: white;
+    border: none;
+    padding: 5px 40px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 1200px;
+}
+
+article {
+    border-width: 5px 0px 0px 0px;
+    border-style: solid none solid none;
+    border-color: #e6e1e1;
+   
+}
+
+.number {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    box-shadow: 5px 0px 0px #e6e1e1;
+    width: calc((100% - 5px) / 3);
+    min-height: 150px;
+}
+
+.more {
+    min-height: 310px;
+}
